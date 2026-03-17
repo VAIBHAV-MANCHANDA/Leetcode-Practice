@@ -1,4 +1,4 @@
-import java.util.*;
+// import java.util.*;
 class revNumb{
     public static void main (String[] args){
         revNumb ob = new revNumb();

@@ -1,7 +1,9 @@
-import java.util.*;
+// import java.util.*;
 
 public class palindrome{
     public static void main( String[] args){
+        System.out.println("Program started");
+
         palindrome obj = new palindrome();
         System.out.println(obj.check(6556));
     }
