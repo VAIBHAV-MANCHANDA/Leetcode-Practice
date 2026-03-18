@@ -3,7 +3,12 @@
 // convert it to a decimal (Base 10) integer.
 // Input: 1A
 // Output: 27
-// Logic Hint: Similar to hexadecimal to decimal conversion, but multiply by powers of 17.
 public class Base17Conversion {
-    
+    public static void main(String[] args){
+        Base17Conversion ob = new Base17Conversion();
+        System.out.println(ob.converted("A1"));
+    }
+    public int converted(String n){
+        return Integer.parseInt(n,17);
+    }
 }
